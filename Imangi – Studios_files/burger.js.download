@@ -1,0 +1,14 @@
+
+window.addEventListener('load', function () {
+ 
+    jQuery(function($){
+      $(".burger").click(function(){
+        $(".main-navigation").toggleClass('open');
+        // $(".main-navigation").addClass('open');
+      });
+        $(".close.mobile").click(function(){
+            $(".main-navigation").toggleClass('open');
+            // $(".main-navigation").removeClass('open');
+        });
+    });
+}, false);

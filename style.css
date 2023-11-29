@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+font-family: century Gothic;
+}
+#main{
+  width: 100%;
+  height: 90vh;
+  background-image: url(./hero_1920x700.jpg);
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  line-height: 80px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+ list-style-type: none;
+ display: inline-block;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+ font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+color: #000;
+font-size: 55px;
+text-align: center;
+margin-right: 117px;
+}
+p{ 
+  
+  color: black;
+  font-size: 21px;
+  margin-left: 100px;
+  margin-top: -16px;
+  
+
+}
+
+h1{
+  text-align: center;
+}
+.page2{
+  width: 984px;
+  height:911.4px ;
+  padding: 0 20px;
+  margin: 60px 119.6px;
+  background-color: white;
+ 
+}
+.page2-head{
+  width: 984px;
+  height: 50px;
+  margin-bottom: 55px;
+  background-color: white;
+}
+.page2 head h1{
+  color: #f4f0f0;
+  font-size: 3rem;
+  font-weight: var(--font-weight-bold);
+}
+.img-container{
+  width: 100%;
+  height: 806px;
+  background-color:white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+
+}
+.img-text{
+  width: 442.8px;
+  height: 343.2px;
+  padding-bottom: 60px;
+  background-color:white;
+}
+.text{
+  width: 442.8px;
+  height: 28px;
+  font-size: 30px;
+  color:rgb(17, 16, 16);
+    text-align: center;
+    margin-top: 20px;
+}
+.feacture-box{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  font-size: 1.4rem;
+
+}
+.feacture{
+  flex-basis: 50%;
+  font-size: 1.4rem;
+}
+.feacture-image{
+  flex-basis: 50%;
+  margin: auto;
+
+}
+.feacture-image img{
+  width: 70%;
+}
+.feacture-box h1{
+  text-align: left;
+}
+
+.feacture-box p{
+  color: black;
+  font-size: 16px;
+  font-weight: 50px;
+  
+}
+
+/* bottom*/
+.conten-img{
+  width: 100%;
+  height: 440px;
+  background-color: #000;
+  margin-top: 55px;
+  display: flex;
+
+}
+.img-1{
+  width: 492px;
+  height: 522.5px;
+  margin-top: -80px;
+}
+.cont-text{
+  color:#f4f0f0
+}
+.cont-text H1{
+  font-size: 4.6rem;
+  line-height: 50px;
+  font-family: var(--font-family-principal);
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+  
+
+  text-align: center;
+}
+.cont-text p{
+  font-size: 1.6rem;
+  line-height: 20px;
+  font-family: var(--font-family-principal);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+
+
+}
+.SeeCareer{
+ background-color: white;
+ color:#808080;
+}
+.btn{
+  padding: 10px 25px;
+  display: table;
+  margin: 30px 0 0;
+  font-weight:var(--font-family-principal); 
+  font-size: 1.3rem;
+  border-radius: 5px;
+  transition: ease 0.25s;
+  text-decoration: none;
+  color: white;
+}
+
+
+footer{
+  width: 100%;
+  height: 176px;
+  background-color: #000;  
+  font-size: 1rem;
+  line-height: 12px;
+  position: relative;
+  padding: 20px 0;
+}
+.container .content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+footer .site-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+footer {
+  background: black;
+  color: white;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+ ul {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+footer .btns-stores {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+footer .btns-stores a.badge-app-store, footer .btns-stores a.badge-google-play {
+  position: relative;
+  margin-left: 25px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+a.badge-google-play {
+  position: relative;
+  margin-left: 25px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+footer .copyright.content {
+  margin-top: 100px;
+  text-align: center;
+}p li {
+  font-size: 1.6rem;
+  line-height: 20px;
+}
